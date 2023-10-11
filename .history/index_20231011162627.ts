@@ -5,7 +5,7 @@
  */
 
 import createError from 'http-errors';
-import app from './server/config/app';
+import app from './config/appfig/app';
 import debug from 'debug';
 debug('week-3d:server');
 import http from 'http';
